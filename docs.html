@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Description">
+
+    <title>Handcuff :: A Simple CSS Framework</title>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="css/handcuff.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header class="fixed">
+        <div class="container">
+            <div class="col-md-2">
+                <div class="white inline-block">
+                    <a href="/">
+                        <h2>HandCuff</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-10">
+                <nav class="menu">
+                    <ul class="list-none">
+                        <li><a href="get-started.html">Get Started</a></li>
+                        <li><a class="current" href="docs.html">Docs</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="docs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="main">
+                        <nav class="sidebar">
+                            <ul class="list-none">
+                                <li><a class="active" href="#container">Container</a></li>
+                                <li><a href="#gsystem">Grid Screen</a></li>
+                                <li><a href="#goption">Grid Option</a></li>
+                                <li><a href="#responsive">Responsive</a></li>
+                                <li><a href="#type">Typography</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="full col-md-10">
+                   <div class="row">
+                        <div id="container">
+                           <div class="bg-top">
+                               <h3>Container</h3>
+                               <p>Use container-fluid for 100% Screen size & container is 90% middle of the site.</p>
+                                <div class="ex text-center">
+                                    <div class="container-fluid">
+                                        <div class="col col-md-12">.container-fluid</div>
+                                    </div>
+                                </div>
+                                <div class="ex text-center">
+                                    <div class="container">
+                                        <div class="col col-md-12">.container</div>
+                                    </div>
+                                </div>
+                                <p>Code:</p>
+<code><xmp><div class="container-fluid">
+    <div class="row">
+        ...
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        ...
+    </div>
+</div></xmp></code>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="gsystem">
+                           <div class="bg">
+                               <h3>Grid System</h3>
+                               <p>Handcuff CSS provide 12 columns.</p>
+                                <div class="ex text-center">
+                                    <div class="row">
+                                        <div class="col col-md-4">Small Screen (<600px)</div>
+                                        <div class="col col-md-4">Medium Screen (601-992px)</div>
+                                        <div class="col col-md-4">Big Screen (>993px)</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4">.col-sm-*</div>
+                                        <div class="col col-md-4">.col-md-*</div>
+                                        <div class="col col-md-4">.col-bg-*</div>
+                                    </div>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="goption">
+                           <div class="bg">
+                               <h3>Grid Option</h3>
+                               <p>Handcuff CSS provide 12 columns.</p>
+                                <div class="ex text-center">
+                                    <div class="row">
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                        <div class="col col-md-1">.col-md-1</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-3">.col-md-3</div>
+                                        <div class="col col-md-6">.col-md-6</div>
+                                        <div class="col col-md-3">.col-md-3.</div>
+                                    </div>
+                                </div>
+                                <p>Code:</p>
+<code><xmp><div class="row">
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+    <div class="col-md-1">col-md-1</div>
+</div>
+<div class="row">
+    <div class="col-md-3">col-md-3</div>
+    <div class="col-md-6">col-md-6</div>
+    <div class="col-md-3">col-md-3.</div>
+</div></xmp></code>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="responsive">
+                           <div class="bg">
+                               <h3>Responsive Design</h3>
+                               <p>Handcuff CSS provide 12 columns.</p>
+                                <div class="ex text-center">
+                                    <div class="row">
+                                        <div class="col col-md-8">col-sm-12 col-md-6 col-bg-8</div>
+                                        <div class="col col-md-4">col-sm-12 col-md-6 col-bg-4</div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-md-4">col-sm-12 col-md-6 col-bg-4</div>
+                                        <div class="col col-md-8">col-sm-12 col-md-6 col-bg-8</div>
+                                    </div>
+                                </div>
+                                <p>Code:</p>
+<code><xmp><div class="row">
+    <div class="col-sm-12 col-md-6 col-bg-8">col-sm-12 col-md-6 col-bg-8</div>
+    <div class="col-sm-12 col-md-6 col-bg-4">col-sm-12 col-md-6 col-bg-4</div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12 col-md-6 col-bg-4">col-sm-12 col-md-6 col-bg-4</div>
+    <div class="col-sm-12 col-md-6 col-bg-8">col-sm-12 col-md-6 col-bg-8</div>
+</div></xmp></code>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div id="type">
+                           <div class="bg">
+                               <h3>Typography</h3>
+                               <p>Handcuff CSS provide 12 columns.</p>
+                                <div class="ex text-center">
+                                    <h1>This is heading One</h1>
+                                    <h2>This is heading Two</h2>
+                                    <h3>This is heading three</h3>
+                                    <h4>This is heading four</h4>
+                                    <h5>This is heading five</h5>
+                                    <h6>This is heading six</h6>
+                                </div>
+                                <p>Code:</p>
+<code><xmp><h1>This is heading One</h1>
+<h2>This is heading Two</h2>
+<h3>This is heading three</h3>
+<h4>This is heading four</h4>
+<h5>This is heading five</h5>
+<h6>This is heading six</h6></xmp></code>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <div class="col-md-6 text-left">
+                <p>Copyright &copy; 2016 - HandCuff</p>
+            </div>
+            <div class="col-md-6 text-right">
+                <p>Made with &#10084; by Amdad</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.0.0.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(document).on("scroll", onScroll);
+
+            $('a[href^="#"]').on('click', function (e) {
+                e.preventDefault();
+                $(document).off("scroll");
+
+                $('a').each(function () {
+                    $(this).removeClass('active');
+                })
+                $(this).addClass('active');
+
+                var target = this.hash;
+                $target = $(target);
+                $('html, body').stop().animate({
+                    'scrollTop': $target.offset().top + 2
+                }, 500, 'swing', function () {
+                    window.location.hash = target;
+                    $(document).on("scroll", onScroll);
+                });
+            });
+        });
+
+        function onScroll(event) {
+            var scrollPosition = $(document).scrollTop();
+            $('.sidebar a').each(function () {
+                var currentLink = $(this);
+                var refElement = $(currentLink.attr("href"));
+                if (refElement.position().top <= scrollPosition && refElement.position().top + refElement.height() > scrollPosition) {
+                    $('.side bar ul li a').removeClass("active");
+                    currentLink.addClass("active");
+                } else {
+                    currentLink.removeClass("active");
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
