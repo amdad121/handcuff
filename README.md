@@ -1,2 +1,2 @@
 # handcuff
-Handcuff :: CSS Framework
+Handcuff :: A Simple CSS Framework
