@@ -14,16 +14,15 @@ header {
 }
 
 .menu ul li a {
-    font-size: ;
     font-weight: bold;
     text-transform: uppercase;
     padding: 10px 15px;
     display: block;
     border-radius: 5px;
     color: #fff;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .menu ul li a:hover {
@@ -63,7 +62,6 @@ footer {
     font-size: 16px;
     text-transform: capitalize;
 }
-
 
 /* Get Started */
 
@@ -145,9 +143,9 @@ footer {
     border-radius: 5px;
     padding: 10px 20px;
     text-transform: uppercase;
-    -webkit-transition: .3s;
-    -o-transition: .3s;
-    transition: .3s;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
 }
 
 .btn:hover {
@@ -171,7 +169,6 @@ code {
     padding: 0 10px;
 }
 
-
 /* Docs */
 
 .docs {
@@ -193,7 +190,3 @@ code {
     height: 50px;
     border: 1px solid #34495e;
 }
-/* About */
-
-
-/* Contact */

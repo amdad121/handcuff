@@ -10,15 +10,11 @@
     <title>Handcuff :: A Simple CSS Framework</title>
 
     <!-- Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
 
     <!-- stylesheet -->
-    <link rel="stylesheet" href="css/handcuff.css">
-    <link rel="stylesheet" href="style.css">
-    
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
+    <link href="css/handcuff.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -36,8 +32,6 @@
                     <ul class="list-none">
                         <li><a class="current" href="get-started.html">Get Started</a></li>
                         <li><a href="docs.html">Docs</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -69,14 +63,14 @@
                             <div class="col-md-6 text-center">
                                 <h4>Production Version</h4>
                                 <p>If you don't need to customize Handcuff css
-                                    <br /> then You may download it.</p>
-                                <a href="css/handcuff.min.css" download class="btn">download</a>
+                                    <br> then You may download it.</p>
+                                <a class="btn" href="css/handcuff.min.css" download>download</a>
                             </div>
                             <div class="col-md-6 text-center">
                                 <h4>Development Version</h4>
                                 <p>If you need to customize Handcuff css
-                                    <br /> then You may download it.</p>
-                                <a href="css/handcuff.css" download class="btn">download</a>
+                                    <br> then You may download it.</p>
+                                <a class="btn" href="css/handcuff.css" download>download</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +79,7 @@
                             <div class="bg">
                                 <h3>CDN Use</h3>
                                     <p>Handcuff.css is working with <abbr title="Content Delivery Network">CDN</abbr>. If you want to use <abbr title="Content Delivery Network">CDN</abbr> then copy this code & paste after your stylesheet.</p>
-<code><xmp><link rel="stylesheet" href="//handcuff.nokshablog.net/css/handcuff.min.css"></xmp></code>
+<pre><code><xmp><link href="//handcuff.nokshablog.net/css/handcuff.min.css" rel="stylesheet"></xmp></code></pre>
                             </div>
                         </div>
                     </div>
@@ -94,16 +88,16 @@
                             <div class="bg">
                                 <h3>HTML5 Format</h3>
                                 <p>Handcuff.css is working with HTML5 format. So you must use HTML5 format.</p>
-<code><xmp><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Handcuff CSS</title>
-</head>
-<body>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Handcuff CSS&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
     ...
-</body>
-</html></xmp></code>
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
                             </div>
                         </div>
                     </div>
@@ -112,7 +106,7 @@
                             <div class="bg">
                                 <h3>IE Compatibility modes</h3>
                                 <p>To ensure proper rendering for Explorer & Microsoft Edge compatibility modes, add this meta tag to your head.</p>
-<code><xmp><meta http-equiv="X-UA-Compatible" content="IE=edge"></xmp></code>
+<pre><code><meta http-equiv="X-UA-Compatible" content="IE=edge"></code></pre>
                             </div>
                         </div>
                     </div>
@@ -121,7 +115,7 @@
                             <div class="bg">
                                 <h3>Mobile Version</h3>
                                 <p>To ensure proper rendering and touch zooming, add the viewport meta tag to your head.</p>
-<code><xmp><meta name="viewport" content="width=device-width, initial-scale=1"></xmp></code>
+<pre><code><meta name="viewport" content="width=device-width, initial-scale=1"></code></pre>
                             </div>
                         </div>
                     </div>
@@ -130,7 +124,7 @@
                             <div class="bg">
                                 <h3>Local Files</h3>
                                 <p>Handcuff CSS active form local files.</p>
-<code><xmp><link rel="stylesheet" href="css/handcuff.min.css"></xmp></code>
+<pre><code><link href="css/handcuff.min.css" rel="stylesheet"></code></pre>
                             </div>
                         </div>
                     </div>
@@ -139,26 +133,22 @@
                             <div class="bg">
                                 <h3>HTML5 Template</h3>
                                 <p>Handcuff CSS basic index page template</p>
-<code><xmp><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
     
-    <title>Handcuff CSS</title>
+    &lt;title&gt;Handcuff CSS&lt;/title&gt;
     
-    <!-- handcuff -->
-    <link rel="stylesheet" href="css/handcuff.min.css">
-    
-    <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
-</head>
-<body>
+    &lt;!-- handcuff --&gt;
+    &lt;link href="css/handcuff.min.css" rel="stylesheet"&gt;
+&lt;/head&gt;
+&lt;body&gt;
     ...
-</body>
-</html></xmp></code>
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
                             </div>
                         </div>
                     </div>
@@ -167,10 +157,10 @@
                             <div class="bg">
                                 <h3>Source Files</h3>
                                 <p>This is Handcuff Folder structure.</p>
-<code><xmp>Handcuff/
+<pre><code>Handcuff/
 └── css/
      ├── handcuff.css
-     └── handcuff.min.css</xmp></code>
+     └── handcuff.min.css</code></pre>
                             </div>
                         </div>
                     </div>
