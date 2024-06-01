@@ -1,0 +1,8 @@
+{
+  "name": "handcuff.css",
+  "version": "1.2.0",
+  "description": "A Minimal CSS Framework",
+  "main": "handcuff.css",
+  "author": "Amdadul Haq",
+  "license": "MIT"
+}
